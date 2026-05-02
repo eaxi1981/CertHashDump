@@ -9,6 +9,7 @@ The format of single-file and multi-file databases is the same, so they can be c
 In addition to hashes, database also contains CompanyName, InternalName, OriginalFilename retrieved from VS_VERSION_INFO - so we can see which companies use a given TBS-certificate.
 
 Single file mode launches by cmd-line: CertDumpHash.exe [PE file], by drag-and-drop, by launching in GUI and selecting file.
+
 Multi file mode launches by cmd-line with option BASE: CertDumpHash.exe [PE file] BASE
 So in folder with many files to process you should create BAT file like these:
 for %%n in (*.*) do CertDumpHash.exe %%n BASE	or
