@@ -1,5 +1,4 @@
-This program dumps certificates and TBS-certificates from PE file and calculates MD5, SHA1, SHA256 hashes of: full PE, Authenticode PE and all found certificates and TBS-certificates.
-The main purpose of the program is to create a hash database for large numbers of PE files - for malware detection purposes.
+This program dumps certificates and TBS-certificates from PE file and calculates MD5, SHA1, SHA256 hashes of: full PE, Authenticode PE and all found certificates and TBS-certificates. The main purpose of the program is to create a hash database for large numbers of PE files - for malware detection purposes.
 It works in two modes:
 - single file mode - dumps all certificates and TBS-certificates, create a database of hashes for a single file: %1_FINAL_RESULT.CSV
 - multi file mode - create a common single database of hashes of all processed files - _DATABASE.CSV. Doesnt' dump certificates.
@@ -50,6 +49,7 @@ py.exe portable-msvc.py --msvc-version 14.31 --accept-license=store_true --targe
 
 I have tested compilation with \bin files from VisualStudio 2012 and VisualStudio 14.31.31103, then:
 set PATH=C:\MASM32_14.31.31103\bin;C:\MASM32_14.31.31103\lib
+
 For 14.31 a little correction in C:\MASM32\include\winextra.inc was necessary:
 alrt_eventname WCHAR  [EVLEN + 1] dup(?)	-> alrt_eventname WCHAR  100 dup(0)
 alrt_servicename WCHAR [SNLEN + 1] dup(?)	-> alrt_servicename WCHAR 100 dup(0)
