@@ -1,0 +1,41 @@
+This software is distributed under the LGPL license
+...
+This software uses code from other people, as follows:
+
+MD5:
+/* MD5C.C - RSA Data Security, Inc., MD5 message-digest algorithm
+/* MD5.H - header file for MD5C.C
+/* MDDRIVER.C - test driver for MD2, MD4 and MD5
+/* Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.
+License to copy and use this software is granted provided that it is identified as the "RSA Data Security, Inc. MD5 Message-Digest
+Algorithm" in all material mentioning or referencing this software or this function.
+License is also granted to make and use derivative works provided that such works are identified as "derived from the RSA Data
+Security, Inc. MD5 Message-Digest Algorithm" in all material mentioning or referencing the derived work.
+RSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this
+software for any particular purpose. It is provided "as is" without express or implied warranty of any kind.
+These notices must be retained in any copies of any part of this documentation and/or software.
+ */
+https://www.ietf.org/rfc/rfc1321.txt
+http://hpux.connect.org.uk/ftp/hpux/Sysadmin/md5-1.00/md5-1.00-src-11.31.tar.gz
+https://github.com/google-deepmind/lab/tree/master/third_party/md
+https://web.mit.edu/freebsd/head/sys/kern/md5c.c
+# No "makefile" is provided in the RFC.
+# This one was written by Jim Ellis (jte@cert.org) for convenience.
+
+SHA1:
+SHA-1 in C By Steve Reid <steve@edmweb.com> 100% Public Domain
+SHA-1 in C By Steve Reid <sreid@sea-to-sky.net> 100% Public Domain
+https://github.com/clibs/sha1
+
+SHA256:
+Assemby x86 32-bit implementation of SHA256 algorithm written by Piotr Ulaszewski on the 15th of December 2016
+basing on a few C/c++ SHA256 implementations anti debug specific code modification included
+Source code is provided for learning purposes
+http://www.itprojects.wroclaw.pl/files/asm/sha256.zip
+
+BeaEngine:
+https://github.com/BeaEngine/beaengine
+This software is distributed under the LGPL license. See the COPYING and COPYING.LESSER files for more details.
+
+
+
