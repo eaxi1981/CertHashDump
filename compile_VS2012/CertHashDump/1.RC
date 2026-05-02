@@ -1,0 +1,30 @@
+1   ICON 1.ico
+
+1 VERSIONINFO
+FILEVERSION	0,1,0,0
+PRODUCTVERSION	0,1,0,0
+FILEFLAGSMASK	0x0000003FL
+FILEFLAGS	0x00000000L
+FILEOS		0x00000004L
+FILETYPE	0x00000001L
+FILESUBTYPE	0x00000000L
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904E4"
+		BEGIN
+			VALUE "CompanyName",	"EAXI\0"
+			VALUE "FileDescription","CertHashDump\0"
+			VALUE "FileVersion",	"1.0\0"
+			VALUE "InternalName",	"CertHashDump\0"
+			VALUE "LegalCopyright",	"Copyright\251 EAXI\0"
+			VALUE "OriginalFilename","CertHashDump.exe\0"
+			VALUE "ProductName",	"CertHashDump\0"
+			VALUE "ProductVersion",	"31.03.2026\0"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x0409, 1252
+	END
+END

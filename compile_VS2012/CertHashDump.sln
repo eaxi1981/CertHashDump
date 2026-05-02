@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CertHashDump", "CertHashDump\CertHashDump.vcxproj", "{5EA1277D-4CA3-4575-A215-1C91262A8014}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28FA4065-BF4F-49D6-94BA-577924C5669C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EA1277D-4CA3-4575-A215-1C91262A8014}.Debug|Win32.ActiveCfg = Release|Win32
+		{5EA1277D-4CA3-4575-A215-1C91262A8014}.Debug|Win32.Build.0 = Release|Win32
+		{5EA1277D-4CA3-4575-A215-1C91262A8014}.Release|Win32.ActiveCfg = Release|Win32
+		{5EA1277D-4CA3-4575-A215-1C91262A8014}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
