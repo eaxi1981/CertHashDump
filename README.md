@@ -3,6 +3,7 @@ The main purpose of the program is to create a hash database for large numbers o
 It works in two modes:
 - single file mode - dumps all certificates and TBS-certificates, create a database of hashes for a single file: %1_FINAL_RESULT.CSV
 - multi file mode - create a common single database of hashes of all processed files - _DATABASE.CSV. Doesnt' dump certificates.
+
 *.CSV databases can be easily viewed and processed by e.g. CSVFileViewer https://www.nirsoft.net/utils/csv_file_view.html or exported to Excel
 The format of single-file and multi-file databases is the same, so they can be combined.
 In addition to hashes, database also contains CompanyName, InternalName, OriginalFilename retrieved from VS_VERSION_INFO - so we can see which companies use a given TBS-certificate.
