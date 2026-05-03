@@ -55,3 +55,20 @@ set PATH=C:\MASM32_14.31.31103\bin;C:\MASM32_14.31.31103\lib
 For 14.31 a little correction in C:\MASM32\include\winextra.inc was necessary:
 alrt_eventname WCHAR  [EVLEN + 1] dup(?)	-> alrt_eventname WCHAR  100 dup(0)
 alrt_servicename WCHAR [SNLEN + 1] dup(?)	-> alrt_servicename WCHAR 100 dup(0)
+
+Examples of use:
+1.Here is the database of malware drivers downloaded from https://www.loldrivers.io
+We can see how many malware drivers use the same TBS-certificate: MD5 b30c31a572b0409383ed3fbe17e56e81
+<img width="1572" height="712" alt="EXAMPLE1" src="https://github.com/user-attachments/assets/03740d78-8e12-4989-88b9-965b1a1c9e77" />
+
+2. Here is the same database of loldrivers drivers, compiled with BIOS Secure Boot DBX revocation list: dbx_info_msft_01_06_25.csv from https://github.com/microsoft/secureboot_objects.
+We can identify the driver with SHA256 00550CCEE4EDFEFD7B7FB54864D0AA5DF059885E9E79FF80D4FB134B4487C05D = famous MS "Black Lotus" boot manager as loldrivers' file "86f6426a9b47dc73eb8c8bafbb46799f.bin"
+<img width="1664" height="696" alt="EXAMPLE2" src="https://github.com/user-attachments/assets/fe410738-0015-46bf-90da-8a357fa82a39" />
+
+
+
+
+
+
+
+
