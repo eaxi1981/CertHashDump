@@ -29,7 +29,7 @@ So most people dont' need BeaEngine.dll, it is loaded optionally and the program
 So you can check yourself the calculated hashes of certificates and all these fraggs  - in e.g. WinHex
 
 Limitations:
-1. You need to remove spaces from names of processing files.
+1. You need to remove spaces from names of processed files.
 2. Up to 256 certificates can be extracted from one file
 3. Single file size limit about 900MB... I have to replace GlobalAlloc
 
