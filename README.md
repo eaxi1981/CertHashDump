@@ -13,7 +13,9 @@ CertDumpHash.exe [PE file], by drag-and-drop, by launching in GUI and selecting 
 Multi file mode launches by cmd-line with option BASE: 
 CertDumpHash.exe [PE file] BASE.
 So in folder with many files to process you should create BAT file like these:
-for %%n in (*.*) do CertDumpHash.exe %%n BASE	or
+
+for %%n in (*.*) do CertDumpHash.exe %%n BASE	 [github eats asterisks here, should be (asterisk dot asterisk)]
+
 for %%n in (*.exe, *.dll, *.ocx, *.sys, *.bin, *.vir ) do CertDumpHash.exe %%n BASE
 
 "Errors" displayed during PE file parsing are mostly not real errors: correct PE file does not have to contain SECURITY_DIRECTORY, .RSRC section, VS_VERSION_INFO etc. -
